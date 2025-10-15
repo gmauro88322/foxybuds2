@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Foxy Buds base theme */
+:root{ --fb-border:#2a2a2a; --fb-bg:#0f0f0f; --fb-card:#121212; --fb-accent:#115e59; }
+html,body{ background:var(--fb-bg); color:#fff; margin:0; padding:0; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
+a{ color:inherit; }
+.button{ border-radius:16px; padding:10px 16px; border:1px solid var(--fb-border); display:inline-block; }
+.card{ border:1px solid var(--fb-border); background:var(--fb-card); border-radius:16px; overflow:hidden; }
