@@ -1,4 +1,3 @@
-```json
 {
   "name": "foxybuds-custom-next",
   "private": true,
@@ -22,4 +21,3 @@
     "@types/node": "20.14.9"
   }
 }
-```
